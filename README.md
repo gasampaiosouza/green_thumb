@@ -35,4 +35,4 @@ To run the application, just clone repo and execute `index.html`.
 Hope you enjoy my logic from behind the code, any questions you can send me an e-mail: `gasampaio.souza@gmail.com`
 
 Regards, <br />
-~ _**Gabriel Sampaio.**_
+&nbsp; _**Gabriel Sampaio.**_
