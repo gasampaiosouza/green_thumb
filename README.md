@@ -1,1 +1,3 @@
-# green_thumb
+# Green Thumb
+
+## Português
