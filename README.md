@@ -11,11 +11,11 @@ So, you have to select **all** the three categories
 **When you do it, you're going to see some plants that matches with your selection.**
 
 ![Recommendations view](https://imgur.com/xthGCsI.png)
-> Second one is being hovered.
+> Second one is being **hovered**.
 
 ## Details
 
-Application has 3 `selects` (that aren't selects, hope it doesn't change anything), and when you fill all of them the application send to API the parameters you selected by Jquery's AJAX and return some recommendations. <br />
+Application has 3 selects. When you fill all of them, it sends to an API all the parameters you selected by Jquery's AJAX, and return some recommendations. <br />
 Client side get this recommendations, remove before recommendations (if there are any) and create a new box to every data object it receives.
 
 **It was made with**
