@@ -1,5 +1,18 @@
 # Green Thumb
 
+> Green thumb is `Red Venture`'s technical test.
+
+## Overview
+
+So, when you select **all** the three categories, it shows you some _plants recommendations_.
+
+![First page view](https://imgur.com/PA9hdyB.png)
+
+**And when you select all of them, you're going to see some plants that matches with your selection.**
+
+![Recommendations view](https://imgur.com/xthGCsI.png)
+> second one is being hovered.
+
 ## Details
 
 Application has 3 `selects` (that aren't selects, hope it doesn't change anything), and when you fill all of them, the application send to you some plants recommendations by Jquery's AJAX. <br />
