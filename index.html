@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://kit.fontawesome.com/4603725681.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Green Thumb</title>
+</head>
+
+<body>
+    <section id="container">
+        <section class="container">
+            <section id="first--content">
+                <a href="index.html">
+                    <img src="img/logo.svg" alt="green thumb." />
+                </a>
+
+                <h1 class="title">Find your next green friend</h1>
+
+                <section class="selection--container">
+                    <div class="selection--box sunlight">
+                        <div class="box--image">
+                            <img src="img/sun.svg" alt="sun image" draggable="false" />
+                        </div>
+                        <div class="box--paragraph">
+                            <p>
+                                <span class="bold">1.</span> Set the amount of <span class="bold">sunlight</span> your
+                                plant will get.
+                            </p>
+                        </div>
+
+                        <section class="dropdown--container">
+                            <section class="dropdown">
+                                <p class="dropdown--text">
+                                    Select...
+                                </p>
+                                <div class="dropdown--icon">
+                                    <i class="fas fa-angle-down"></i>
+                                </div>
+
+                                <ul class="dropdown--options">
+                                    <li>High sunlight
+                                    <li>Low sunlight
+                                    <li>No sunlight</li>
+                                </ul>
+                            </section>
+                        </section>
+                    </div>
+                    <div class="selection--box water" style="margin: 0 60px;">
+                        <div class="box--image">
+                            <img src="img/wateringcan.svg" alt="water image" draggable="false" />
+                        </div>
+                        <div class="box--paragraph">
+                            <p>
+                                <span class="bold">2.</span> How often do you want to <span class="bold">water</span>
+                                your plant?
+                            </p>
+                        </div>
+
+                        <section class="dropdown--container">
+                            <section class="dropdown">
+                                <p class="dropdown--text">
+                                    Select...
+                                </p>
+                                <div class="dropdown--icon">
+                                    <i class="fas fa-angle-down"></i>
+                                </div>
+
+                                <ul class="dropdown--options">
+                                    <li>Daily
+                                    <li>Regularly
+                                    <li>Rarely</li>
+                                </ul>
+                            </section>
+                        </section>
+                    </div>
+                    <div class="selection--box pet">
+                        <div class="box--image">
+                            <img src="img/dog.svg" alt="dog image" draggable="false" />
+                        </div>
+                        <div class="box--paragraph">
+                            <p>
+                                <span class="bold">3.</span> Do you have pets? Do they <span class="bold">chew</span>
+                                plants?
+                            </p>
+                        </div>
+
+                        <section class="dropdown--container">
+                            <section class="dropdown">
+                                <p class="dropdown--text">
+                                    Select...
+                                </p>
+                                <div class="dropdown--icon">
+                                    <i class="fas fa-angle-down"></i>
+                                </div>
+
+                                <ul class="dropdown--options">
+                                    <li>Yes
+                                    <li>No / They don't care</li>
+                                </ul>
+                            </section>
+                        </section>
+                    </div>
+                </section>
+            </section>
+        </section>
+        <section id="second--content">
+            <section class="container">
+                <section class="no-result">
+                    <div class="no-result--content">
+                        <h1>No results yet...</h1>
+                        <p>Use the filters above to find the plant that best fits your environment :)
+                        </p>
+                    </div>
+
+                    <div class="no-result--image">
+                        <img src="img/illustration.svg" alt="illustration" draggable="false" />
+                    </div>
+                </section>
+
+                <section class="result">
+                    <div class="result--image">
+                        <img src="img/pick.svg" alt="pick" draggable="false" />
+                    </div>
+                    <h1 class="title">Our picks for you</h1>
+
+                    <!-- all boxes root -->
+                    <section id="pick--container"></section>
+
+                    <a href="#container" class="back--top">
+                        <i class="fas fa-arrow-up fa-sm"></i>
+                        <span>back to the top</span>
+                    </a>
+                </section>
+            </section>
+        </section>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
