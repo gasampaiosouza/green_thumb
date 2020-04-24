@@ -11,7 +11,7 @@ So, you have to select **all** the three categories
 **When you do it, you're going to see some plants that matches with your selection.**
 
 ![Recommendations view](https://imgur.com/xthGCsI.png)
-> second one is being hovered.
+> Second one is being hovered.
 
 ## Details
 
