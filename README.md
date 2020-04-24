@@ -4,11 +4,11 @@
 
 ## Overview
 
-So, when you select **all** the three categories it shows you some _plants recommendations_.
+So, you have to select **all** the three categories
 
 ![First page view](https://imgur.com/PA9hdyB.png)
 
-**And when you select all of them, you're going to see some plants that matches with your selection.**
+**When you do it, you're going to see some plants that matches with your selection.**
 
 ![Recommendations view](https://imgur.com/xthGCsI.png)
 > second one is being hovered.
