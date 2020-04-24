@@ -4,7 +4,7 @@
 
 ## Overview
 
-So, when you select **all** the three categories, it shows you some _plants recommendations_.
+So, when you select **all** the three categories it shows you some _plants recommendations_.
 
 ![First page view](https://imgur.com/PA9hdyB.png)
 
@@ -15,7 +15,7 @@ So, when you select **all** the three categories, it shows you some _plants reco
 
 ## Details
 
-Application has 3 `selects` (that aren't selects, hope it doesn't change anything), and when you fill all of them, the application send to API the parameters you selected by Jquery's AJAX, and return some recommendations. <br />
+Application has 3 `selects` (that aren't selects, hope it doesn't change anything), and when you fill all of them the application send to API the parameters you selected by Jquery's AJAX and return some recommendations. <br />
 Client side get this recommendations, remove before recommendations (if there are any) and create a new box to every data object it receives.
 
 **It was made with**
