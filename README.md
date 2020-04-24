@@ -24,7 +24,7 @@ Client side get this recommendations, remove before recommendations (if there ar
 * CSS (Scss)
 * Javascript (Jquery)
 
-> Coded with: VS Code.
+> Coded with: **VS Code**.
 
 ## Run
 
