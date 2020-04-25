@@ -91,11 +91,11 @@ const give_class = (element, class_name) => {
 
 function config_box(box, data) {
     // change image
-    box.querySelector(`.${box.className} > .pick--image`).style.backgroundImage = `url(${data.url})`;
+    box.querySelector(`.pick--image`).style.backgroundImage = `url(${data.url})`;
     // change name
-    box.querySelector(`.${box.className} > .pick--title`).innerHTML = data.name;
+    box.querySelector(`.pick--title`).innerHTML = data.name;
     // change price
-    box.querySelector(`.${box.className} > .pick--details > p`).innerHTML = `$${data.price}`;
+    box.querySelector(`.pick--details > p`).innerHTML = `$${data.price}`;
     // change icon (by it's source)
     let water_icon = create_image('water', data) || 0;
     let sun_icon = create_image('sun', data) || 0;
