@@ -38,16 +38,16 @@ $('.dropdown--container').find('ul > li').click(function () {
 const show_recom = arr => {
     let sun = arr[0];
     let water = arr[1];
-    let pets = arr[2] == 'yes' ? 'true' : 'false';
+    let pets = arr[2] === 'yes';
 
     // make request to server
     $.ajax({
         url: URL,
         type: 'GET',
         data: {
-            'sun': sun,
-            'water': water,
-            'pets': pets,
+            sun,
+            water,
+            pets,
         },
         success: function (data) {
             /* i could filter it to return data with the EXACTLY three things user selected,
